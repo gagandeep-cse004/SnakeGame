@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Modern Snake Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>🐍 Modern Snake Game</h1>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+    <p id="score">Score: 0</p>
+    <button id="startBtn">Start Game</button>
+    <div id="leaderboard"></div>
+
+    <!-- Mobile Controls -->
+    <div id="mobile-controls">
+        <div class="row">
+            <button class="control-btn" id="btn-up">⬆️</button>
+        </div>
+        <div class="row">
+            <button class="control-btn" id="btn-left">⬅️</button>
+            <button class="control-btn" id="btn-down">⬇️</button>
+            <button class="control-btn" id="btn-right">➡️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
